@@ -2,9 +2,9 @@ html {
   box-sizing: border-box;
 }
 
-*
-*, ::befor
-*, ::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -49,16 +49,6 @@ body {
   color: #fff;
   background-color: #070217;
 
-}
-
-.desc {
-  width: 872px;
-  margin-bottom: 40px;
-}
-.grey-block {
-  border-radius: 20px;
-  padding: 30px;
-  background-color: #f3f3f3;
 }
 
 
