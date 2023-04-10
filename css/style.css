@@ -100,7 +100,7 @@ h1 {
 
 .figure {
   display: inline-block;
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
   width: 872px;
 }
 
