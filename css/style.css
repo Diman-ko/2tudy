@@ -28,6 +28,9 @@ a {
  margin-right: 25px;
 }
 .a-link {
+  font-size: 18px;
+  font-weight: 700;
+  color: #3f2aff;
   display: inline-block;
   padding: 24px 49px;
 }
@@ -35,7 +38,6 @@ a {
 
 img {
   max-width: 100%;
-
 }
 
 body {
@@ -53,6 +55,18 @@ body {
 
 }
 
+.downloads-docx {
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #3f2aff;
+  background-image: url("../img/download.png");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: left center;
+}
+
+
 
 /*---------------------------------------------------------*/
 /* article       */
@@ -66,24 +80,53 @@ body {
 
 h1 {
   margin: 0 0 40px 0;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 60px;
+  color: #333;
 }
 
 .desc {
   width: 872px;
   margin: 0 0 40px 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #333;
+}
+
+.back-desc {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  background: #3f2aff;
+  padding: 50px 95px;
+  border-radius: 20px;
+  width: 100%;
 }
 
 .grey-block {
   border-radius: 20px;
   padding: 30px;
   background-color: #f3f3f3;
+  background-position: right center;
+  background-repeat: no-repeat;
+
+}
+
+.additional-img1 {
+  background-image: url("../img/decorate-1.png");
+}
+
+.additional-img2 {
+  background-image: url("../img/decorate-2.png");
 }
 
 .grey-block:not(:last-child) {
   margin-bottom: 40px;
 }
 
-.padding-ul {
+.mod-ul {
   padding-left: 15px;
   margin: 0;
 
@@ -93,22 +136,48 @@ h1 {
   margin-bottom: 20px;
 }
 
+.list-mod {
+  font-size: 20px;
+  color: #3f2aff;
+  border-bottom: 1px solid #3f2aff;
+}
+
+li::marker {
+  color: #3f2aff;
+}
+
 .desc-grey {
   width: 692px;
   margin-bottom: 10px;
 }
 
 .figure {
+  font-size: 0;
   display: inline-block;
   margin: 0 0 40px 0;
   width: 872px;
 }
+.fig-description {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  border-bottom: 1px solid #b6b6b6;
+  border-left: 1px solid #b6b6b6;
+  border-right: 1px solid #b6b6b6;
+  padding: 19px 0;
+}
 
 .content-secondary {
+  font-size: 20px;
+  line-height: 46px;
+  color: #333;
   margin: 0 0 10px 0;
 }
 
 .content-third {
+  font-weight: 400;
+  font-size: 30px;
+  color: #333;
   margin: 0 0 10px;
 
 }
