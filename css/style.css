@@ -23,7 +23,8 @@ a {
 .a-link {
   font-size: 18px;
   font-weight: 700;
-  color: #3f2aff;
+  color: #fff;
+  background-color: #3f2aff;
   display: inline-block;
   padding: 24px 49px;
 }
