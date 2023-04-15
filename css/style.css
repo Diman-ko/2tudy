@@ -291,7 +291,7 @@ li::marker {
   color: #EAEAEA;
 }
 
-.see-also {
+.btn-see-also {
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
@@ -304,6 +304,11 @@ li::marker {
   margin: 0 auto;
   width: 275px;
   height: 70px;
+  cursor: pointer;
+}
+
+.btn-see-also:hover {
+  background-color: #b6b6b6;
 }
 
 .imag1 {
