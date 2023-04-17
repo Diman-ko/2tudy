@@ -195,7 +195,7 @@ li::marker {
 
 .modules-logo {
   display: inline-block;
-  margin: 0;
+  margin-bottom: 25px;
 }
 
 .modules-content {
@@ -210,7 +210,8 @@ li::marker {
   font-size: 18px;
   font-weight: 700;
   color: #3f2aff;
-  padding: 24px 49px;
+  padding-left: 49px;
+  margin-bottom: 25px;
   background-image: url("../img/Arrow_1.png");
   background-repeat: no-repeat;
   background-size: 40px 10px;
@@ -226,26 +227,19 @@ li::marker {
   color: #3F2AFF;
 }
 
-
-.modules-blocks {
-  /*display: block;*/
-
-}
-
 .modules-h2 {
-  display: inline-block;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 46px;
   color: #3F2AFF;
   margin: 0;
-  padding: 200px 0 0 40px;
-
 }
 
 
 .ul-links {
+  margin: 205px 25px 25px 25px;
+  padding: 0;
   font-size: 20px;
   font-weight: 400;
   line-height: 33px;
@@ -253,7 +247,6 @@ li::marker {
   color: #333;
   list-style-type: none;
   background: #FFFFFF;
-
 }
 
 .mod-ul-links {
@@ -261,7 +254,7 @@ li::marker {
   max-width: 1170px;
   font-size: 0;
   list-style-type: none;
-  margin: 0;
+  margin: 0 0 25px 0;
   padding: 0;
 }
 
@@ -270,11 +263,12 @@ li::marker {
   display: inline-block;
   position: relative;
   margin-bottom: 25px;
-  padding: 0;
   width: 572px;
   height: 505px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  background-repeat: no-repeat;
+  background-size: 572px 180px;
+  background-position: top center;
 }
 
 .mod-item:not(:nth-child(2n)) {
@@ -287,7 +281,6 @@ li::marker {
   bottom: 20px;
   font-size: 40px;
   line-height: 46px;
-  text-align: right;
   color: #EAEAEA;
 }
 
@@ -302,40 +295,23 @@ li::marker {
   display: block;
   position: center;
   margin: 0 auto;
-  width: 275px;
-  height: 70px;
   cursor: pointer;
-}
-
-.btn-see-also:hover {
-  background-color: #b6b6b6;
+  background: transparent;
 }
 
 .imag1 {
   background-image: url("../img/inter-modules.png");
-  background-repeat: no-repeat;
-  background-size: 572px 180px;
-  background-position: top center;
 }
 
 .imag2 {
   background-image: url("../img/base-modules.png");
-  background-repeat: no-repeat;
-  background-size: 572px 180px;
-  background-position: top center;
 }
 
 .imag3 {
   background-image: url("../img/base-css-modules.png");
-  background-repeat: no-repeat;
-  background-size: 572px 180px;
-  background-position: top center;
 }
 
 .imag4 {
   background-image: url("../img/work-modules.png");
-  background-repeat: no-repeat;
-  background-size: 572px 180px;
-  background-position: top center;
 }
 
