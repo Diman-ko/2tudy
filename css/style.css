@@ -238,7 +238,6 @@ li::marker {
 
 
 .ul-links {
-  margin: 205px 25px 25px 25px;
   padding: 0;
   font-size: 20px;
   font-weight: 400;
@@ -269,6 +268,7 @@ li::marker {
   background-repeat: no-repeat;
   background-size: 572px 180px;
   background-position: top center;
+  padding: 205px 25px 25px 25px;;
 }
 
 .mod-item:not(:nth-child(2n)) {
